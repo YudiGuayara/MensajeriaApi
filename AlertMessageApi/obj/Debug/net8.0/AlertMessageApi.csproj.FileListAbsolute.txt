@@ -44,3 +44,4 @@ C:\Users\ACER\Documents\Trabajos Yudi\Programacion USergioArboleda\MensajeriaApi
 C:\Users\ACER\Documents\Trabajos Yudi\Programacion USergioArboleda\MensajeriaApi\AlertMessageApi\obj\Debug\net8.0\AlertMessageApi.pdb
 C:\Users\ACER\Documents\Trabajos Yudi\Programacion USergioArboleda\MensajeriaApi\AlertMessageApi\obj\Debug\net8.0\AlertMessageApi.genruntimeconfig.cache
 C:\Users\ACER\Documents\Trabajos Yudi\Programacion USergioArboleda\MensajeriaApi\AlertMessageApi\obj\Debug\net8.0\ref\AlertMessageApi.dll
+C:\Users\ACER\Documents\Trabajos Yudi\Programacion USergioArboleda\MensajeriaApi\AlertMessageApi\obj\Debug\net8.0\AlertMessageApi.sourcelink.json

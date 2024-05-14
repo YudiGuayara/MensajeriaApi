@@ -63,7 +63,7 @@ namespace AlertMessageApi.Controllers
                 alertMessage.Date = DateTime.UtcNow;  // Asigna la fecha y hora actual en UTC
 
                 await _alertMessages.InsertOneAsync(alertMessage);  // Inserta el mensaje de alerta en la base de datos
-                return CreatedAtAction(nameof(GetAlertMessage), new { id = alertMessage.Id }, alertMessage);
+                return CreatedAtAction(nameof(GetAlertMessage), new { id = alertMessage.Id }, new { Message = "Alert message created successfully" });
             }
             catch (Exception ex)
             {
@@ -82,7 +82,7 @@ namespace AlertMessageApi.Controllers
                 {
                     return NotFound();
                 }
-                return Ok(updatedAlertMessage);
+                return Ok(new { Message = "Report updated successfully" });
             }
             catch (Exception ex)
             {
@@ -101,7 +101,7 @@ namespace AlertMessageApi.Controllers
                 {
                     return NotFound();
                 }
-                return NoContent();
+                return Ok(new { Message = "Report deleted successfully" });
             }
             catch (Exception ex)
             {
