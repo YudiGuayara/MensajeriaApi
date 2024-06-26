@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ACER\\Documents\\Trabajos Yudi\\Programacion USergioArboleda\\MensajeriaApi\\Message_ms\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Documents\\Trabajos Yudi\\Programacion USergioArboleda\\MensajeriaApi\\Message_ms\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Documents\\Trabajos Yudi\\Programacion USergioArboleda\\MensajeriaApi\\Message_ms\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AlertMessageApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AlertMessageApi.props",
+      "PackagePath": "build\\AlertMessageApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AlertMessageApi.props",
+      "PackagePath": "buildMultiTargeting\\AlertMessageApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AlertMessageApi.props",
+      "PackagePath": "buildTransitive\\AlertMessageApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

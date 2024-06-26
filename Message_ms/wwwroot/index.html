@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfaz de Gestión de Mensajes de Alerta</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestión de Mensajes de Alerta</h1>
+
+        <!-- Formulario para crear o actualizar mensajes de alerta -->
+        <div id="form-section">
+            <h2>Crear/Actualizar Mensaje de Alerta</h2>
+            <form id="alert-form">
+                <input type="hidden" id="alert-id" name="id">
+                
+                <label for="date">Fecha:</label>
+                <input type="datetime-local" id="date" name="date" required>
+                
+                <label for="level">Nivel:</label>
+                <select id="level" name="level" required>
+                    <option value="Verde">Verde</option>
+                    <option value="Amarillo">Amarillo</option>
+                    <option value="Naranja">Naranja</option>
+                    <option value="Rojo">Rojo</option>
+                </select>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <label for="userId">ID de Usuario:</label>
+                <input type="text" id="userId" name="userId" required>
+                
+                <label for="eventId">ID de Evento:</label>
+                <input type="text" id="eventId" name="eventId" required>
+                
+                <button type="submit" id="submit-button">Guardar</button>
+            </form>
+        </div>
+
+        <!-- Sección de búsqueda de mensajes de alerta por ID -->
+        <div id="search-section">
+            <h2>Buscar Mensaje de Alerta por ID</h2>
+            <form id="search-form">
+                <label for="search-id">ID de Alerta:</label>
+                <input type="text" id="search-id" name="search-id" required>
+                <button type="submit">Buscar</button>
+            </form>
+            <div id="search-result"></div>
+        </div>
+
+        <!-- Lista de mensajes de alerta existentes -->
+        <div id="alerts-section">
+            <h2>Lista de Mensajes de Alerta</h2>
+            <ul id="alerts-list">
+                <!-- Aquí se llenarán los mensajes de alerta existentes -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
